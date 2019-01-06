@@ -16,6 +16,8 @@
   <link href="css/style.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="scss/style.scss" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="controller/jQueryFunction.js"></script>
 </head>
 
 <body>
@@ -24,7 +26,7 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
+      <a class="navbar-brand" href="#" target="_blank">
         <img src="img/grepsr-logo/gre-trans.png" class="img-fluid" alt="">
       </a>
 
@@ -40,69 +42,59 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">How It Works
+            <a class="nav-link" href="https://www.grepsr.com/how-it-works/">How It Works
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="view/services.html" target="_blank">Services</a>
+            <a class="nav-link" href="https://www.grepsr.com/services/" target="_blank">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="view/customers.html" target="_blank">Customers</a>
+            <a class="nav-link" href="https://www.grepsr.com/customers/" target="_blank">Customers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="view/pricing.html" target="_blank">Pricing</a>
+            <a class="nav-link" href="https://www.grepsr.com/pricing-concierge/" target="_blank">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="view/blogs.html" target="_blank">Blogs</a>
+            <a class="nav-link" href="https://www.grepsr.com/blog/" target="_blank">Blogs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="view/contact.html" target="_blank">Contact Us</a>
+            <a class="nav-link" href="https://www.grepsr.com/contact-us/" target="_blank">Contact Us</a>
           </li>
         </ul>
 
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded"
+          <li class="nav-item mr-2">
+            <a href="https://app.grepsr.com/access/login" class="nav-link border border-light rounded text-center"
               target="_blank">
+              <i class="fa fa-sign-in mr-2"></i>Login
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://app.grepsr.com/signup2" class="nav-link border border-light rounded text-center" target="_blank">
               <i class="fa fa-sign-in mr-2"></i>Start a Project
 
             </a>
           </li>
         </ul>
-
       </div>
-
     </div>
   </nav>
   <!-- Navbar -->
 
   <!-- Full Page Intro -->
   <div class="view full-page-intro" style="
-  padding: 30px 0;
-  background-image:url(img/grepsr-image/home-new.jpg);
-">
+  padding: 30px 0; background-image:url(img/grepsr-image/background.png); ">
 
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
       <!-- Content -->
       <div class="container">
-
         <!--Grid row-->
         <div class="row wow fadeIn">
-
           <!--Grid column-->
           <div class="col-md-6 mb-4 white-text text-center text-md-left">
 
@@ -113,29 +105,20 @@
             <button type="button" class="btn btn-rounded" style="background-color:#2ceaa9;">DOWNLOAD&nbsp;<i class="far fa-arrow-alt-circle-down"></i></button>
             <button type="button" class="btn btn-rounded" style="background-color:#2ceaa9;">PURCHASE</button>
           </div>
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12">
-            <p class="h5 text-center mb-4">Watch our "How Grepsr Works" tutorial</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
-            </div>
-          </div>
         </div>
       </div>
       <!-- Content -->
-
     </div>
     <!-- Mask & flexbox options-->
-
   </div>
   <!-- Full Page Intro -->
 
   <!--Main layout-->
   <main>
+    <!--First container starts -->
     <div class="container-fluid">
       <!--Section: Main features & Quick Start-->
       <hr class="my-3">
-
       <!--First Section Starts -->
       <section class="container">
         <div class="container-fluid d-flex align-items-center justify-content-center h-45">
@@ -157,10 +140,11 @@
                 <div class="col-lg-4 text-center">
                   <div class="icon-area">
                     <div class="circle-icon">
-                      <i class="fas fa-cogs blue-text"></i>
+                      <img src="img/grepsr-icon/o-saas-benefit-icon-01.original.svg" alt="">
                     </div>
                     <br>
-                    <h5 class="font-weight-bold mt-2" style="color:#474a8a !important;">Customization</h5>
+                    <h5 class="font-weight-bold mt-2" style="color:#474a8a !important;">Understand every step of the
+                      way</h5>
                     <div class="mt-1">
                       <p class="mx-3">Lorem Ipsum is simply dummy text of the printing and typesetting let.
                         Lorem ipsum dolor sit
@@ -172,10 +156,11 @@
                 <div class="col-lg-4 text-center">
                   <div class="icon-area">
                     <div class="circle-icon">
-                      <i class="fas fa-book blue-text"></i>
+                      <img src="img/grepsr-icon/o-saas-benefit-icon-02.original.svg" alt="">
                     </div>
                     <br>
-                    <h5 class="font-weight-bold mt-2" style="color:#474a8a !important;">Easy tutorials</h5>
+                    <h5 class="font-weight-bold mt-2" style="color:#474a8a !important;">Build faster with instant
+                      answers</h5>
                     <div class="mt-1">
                       <p class="mx-3">Lorem Ipsum is simply dummy text of the printing and typesetting let.
                         Lorem ipsum dolor sit
@@ -187,10 +172,10 @@
                 <div class="col-lg-4 text-center mb-4">
                   <div class="icon-area">
                     <div class="circle-icon">
-                      <i class="fas fa-users blue-text"></i>
+                      <img src="img/grepsr-icon/o-saas-benefit-icon-03.original.svg" alt="">
                     </div>
                     <br>
-                    <h5 class="font-weight-bold mt-2" style="color:#474a8a !important;">Free support</h5>
+                    <h5 class="font-weight-bold mt-2" style="color:#474a8a !important;">Unlock insights for everyone</h5>
                     <div class="mt-1">
                       <p class="mx-3">Lorem Ipsum is simply dummy text of the printing and typesetting let.
                         Lorem ipsum dolor sit
@@ -206,13 +191,83 @@
         </div>
       </section>
     </div>
-    <!--First Section Ends -->
-    <div class="container-fluid" style="background-color: #d3d3d3">
-      <hr class="my-5">
+    <!--First container Ends -->
+
+    <!--Second container Starts -->
+    <div class="container-fluid" style="background-image:url(img/grepsr-image/home-new.jpg)">
+      <!--Second  Section Starts -->
+      <!-- <section id="testimonials" class="section mb-5 pb-4"> -->
+      <section id="watchVideo" class="container">
+        <!--Secion heading-->
+        <h3 class="text-center dark-grey-text text-uppercase spacing my-5 py-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; color:#ffffff !important;">
+          <b>Watch Video</b>
+        </h3>
+        <!-- Grid row -->
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <!-- Grid column -->
+            <div class="col-lg-10 col-md-6 mb-4">
+              <a><img class="img-fluid z-depth-1" src="img/grepsr-icon/play-button.png" alt="video" data-toggle="modal"
+                  data-target="#modal6" style="max-width: 15%;"></a>
+              <!-- Grid column -->
+            </div>
+            <div class="col-md-8">
+              <h3 class="text-center dark-grey-text text-uppercasess spacing wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; color:#ffffff !important;">
+                <b>Unlock The Potential</b>
+              </h3>
+              <h5 class="text-center dark-grey-text text-uppercase py-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; color:#ffffff !important;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est tellus, pulvinar ac iaculis vel,
+                varius eu arcu. Integer id lectus posuere nisi dignissim gravida at ac justo. Ut nec dui rutrum, cursus
+                mauris sed integer eu vel.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="img/grepsr-image/spacing1.PNG" alt="">
+        </div>
+      </section>
+    </div>
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wTcNtgA6gHs" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Spread the word!</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+    </div>
+    <!--Modal: Name-->
+    <!-- Grid row -->
+    <!--Second container Ends -->
+
+    <!--Third container Ends -->
+    <div class="container-fluid">
       <!--Second  Section Starts -->
       <!-- <section id="testimonials" class="section mb-5 pb-4"> -->
       <section id="testimonials" class="container">
-
+        <div class="mt-5"></div>
         <!--Secion heading-->
         <h3 class="text-center dark-grey-text text-uppercase spacing my-5 py-4 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; color:#474a8a !important;">
           <b>Testimonials</b>
@@ -290,7 +345,7 @@
                 <i class="fas fa-star"> </i>
                 <i class="fas fa-star-half-alt"> </i>
               </div>
-
+              <div class="mb-5"></div>
             </div>
             <!--/Second slide-->
 
@@ -319,7 +374,7 @@
                 <i class="fas fa-star"> </i>
                 <i class="fas fa-star"> </i>
               </div>
-
+              <div class="mb-5"></div>
             </div>
             <!--/Third slide-->
           </div>
@@ -329,10 +384,13 @@
         <!--/.Carousel Wrapper-->
       </section>
     </div>
+    <!--Third container Ends -->
 
+    <!--Fourth container Starts -->
     <div class="container-fluid">
-      <!--Third Section Starts -->
       <!--Section: Main info-->
+
+      <hr class="my-5">
       <section class="mt-5 wow fadeIn container">
 
         <div class="row justify-content-center align-items-center">
@@ -352,15 +410,26 @@
                 <div>
                   <img src="img/grepsr-image/spacing.PNG" alt="">
                 </div>
-                <img src="img/grepsr-trusted-companies/logo-c-bain.png" alt="">
-                <img src="img/grepsr-trusted-companies/logo-c-ge.png" alt="">
-                <img src="img/grepsr-trusted-companies/logo-c-groupon.png" alt="">
-                <img src="img/grepsr-trusted-companies/logo-c-lazada.png" alt="">
-                <img src="img/grepsr-trusted-companies/logo-c-ola.png" alt="">
-                <img src="img/grepsr-trusted-companies/logo-c-pb.png" alt="">
-                <img src="img/grepsr-trusted-companies/logo-c-pearson.png" alt="">
-                <img src="img/grepsr-trusted-companies/logo-c-rightmove.png" alt="">
-                <img src="img/grepsr-trusted-companies/logo-c-ubm.png" alt="">
+                <div class="mt-5">
+                  <img src="img/grepsr-trusted-companies/logo-c-bain.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-ge.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-groupon.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-lazada.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-ola.png" class="ml-4" alt="">
+                </div>
+                <div class="mt-5">
+                  <img src="img/grepsr-trusted-companies/logo-c-pb.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-pearson.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-rightmove.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-sonic.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-time.png" class="ml-4" alt="">
+                </div>
+                <div class="mt-5">
+                  <img src="img/grepsr-trusted-companies/logo-c-seek.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-rocket-internet.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-regenersis.png" class="ml-4" alt="">
+                  <img src="img/grepsr-trusted-companies/logo-c-twitter.png" class="ml-4" alt="">
+                </div>
               </div>
             </div>
           </div>
@@ -369,21 +438,22 @@
           </div>
       </section>
     </div>
-    <div class="container-fluid" style="background-color: #d3d3d3" >
-      <!--Third Section Ends -->
-      <hr class="my-5">
+    <!--Fourth container Ends -->
 
+    <!--Fifth container Starts -->
+    <div class="container-fluid" style="background-color: #d3d3d3">
       <!--Fourth  Section Starts -->
       <section id="pricing" class="section pb-5 pt-1 container">
 
         <!--Secion heading-->
-        <h3 class="text-center text-uppercase spacing wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; color:#474a8a !important;">
-          <b>Our Awesome Pricing</b>
+        <h3 class="text-center text-uppercase spacing wow py-4 fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; color:#474a8a !important;">
+          <b>The Pricing Plan</b>
         </h3>
         <!--Section description-->
-        <p class="text-center text-uppercase grey-text font-weight-bold mb-5 pb-3 wow fadeIn" data-wow-delay="0.2s"
-          style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;"><i class="fas fa-square red-text-2 mr-2"
-            aria-hidden="true"></i>LOREM IPSUM DOLOR SIT AMET</p>
+        <p class="text-center text-uppercase grey-text mb-5 pb-3 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+          The most powerful analytics to understand how people use your app or website. Choose from any of our pricing
+          plans that work to fit you as you grow.
+        </p>
         <!--Grid row-->
         <div class="row">
           <!--Grid column-->
@@ -408,7 +478,7 @@
                   Limited core reports
                   60 day data history
                   3 members / projects
-                  A/B Testing
+                  A/B Testing.Reports Predictive analytics
                   <hr class="my-5">
                   <a class="btn btn-outline-white"> Choose Plans</a>
                 </div>
@@ -434,14 +504,15 @@
                   <hr class="my-5">
                   <!--Price-->
                   <div class="price pt-0">
-                    <h3>$79/mo</h3>
+                    <h3> $159/mo</h3>
                   </div>
                   <hr class="my-5">
-                  Unlimited projects
+                  Everything in Esential +
                   Limited core reports
-                  60 day data history
-                  3 members / projects
-                  A/B Testing
+                  12 month data history
+                  10 members / projects
+                  Unlimited saved reports
+                  Predictive analytics
                   <hr class="my-5">
                   <a class="btn btn-outline-white"> Choose Plans</a>
                 </div>
@@ -466,18 +537,18 @@
                   <hr class="my-5">
                   <!--Price-->
                   <div class="price pt-0">
-                    <h3>$79/mo</h3>
+                    <h3>$359/mo</h3>
                   </div>
                   <hr class="my-5">
-                  Unlimited projects
+                  Everything in Esential +
                   Limited core reports
-                  60 day data history
-                  3 members / projects
-                  A/B Testing
+                  12 month data history
+                  10 members / projects
+                  Unlimited saved reports
+                  Predictive analytics
                   <hr class="my-5">
                   <a class="btn btn-outline-white"> Choose Plans</a>
                 </div>
-
               </div>
               <!--Pricing card-->
             </div>
@@ -488,16 +559,16 @@
 
       </section>
     </div>
-    <!--Fourth Section Ends -->
+    <!--Fifith container Ends -->
 
-    <hr class="my-5">
-
-    <!--Fifth Section Starts -->
+    <!--Sixth container Starts -->
     <!--Section: Main features & Quick Start-->
     <div class="container-fluid">
       <section class="container">
+
+        <hr class="my-5">
         <div class="row justify-content-center align-items-center">
-          <h3 class="" style="color:#474a8a !important;"><b>Grepsr Makes Life Easier</b</h3> </div> <!--First row-->
+          <h3 class="" style="color:#474a8a !important;"><b>Grepsr Make Life Easier</b</h3> </div> <!--First row-->
               <div class="row features-small mt-5 wow fadeIn">
 
                 <!--First column-->
@@ -505,7 +576,7 @@
                   <!--First row-->
                   <div class="row">
                     <div class="col-2">
-                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                      <img src="img/grepsr-icon/93dedz-icon-newspaper_01i01i01i01i000000.png" alt="">
                     </div>
                     <div class="col-10">
                       <h6 class="feature-title">Free for personal and commercial use</h6>
@@ -519,7 +590,7 @@
                   <!--/First row-->
 
                   <!--Second row-->
-                  <div class="row">
+                  <!-- <div class="row">
                     <div class="col-2">
                       <i class="fas fa-check-circle fa-2x indigo-text"></i>
                     </div>
@@ -530,11 +601,11 @@
                       </p>
                       <div style="height:15px"></div>
                     </div>
-                  </div>
+                  </div> -->
                   <!--/Second row-->
 
                   <!--Third row-->
-                  <div class="row">
+                  <!-- <div class="row">
                     <div class="col-2">
                       <i class="fas fa-check-circle fa-2x indigo-text"></i>
                     </div>
@@ -543,11 +614,11 @@
                       <p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
                       <div style="height:15px"></div>
                     </div>
-                  </div>
+                  </div> -->
                   <!--/Third row-->
 
                   <!--Fourth row-->
-                  <div class="row">
+                  <!-- <div class="row">
                     <div class="col-2">
                       <i class="fas fa-check-circle fa-2x indigo-text"></i>
                     </div>
@@ -558,14 +629,14 @@
                         looks great on each screen.</p>
                       <div style="height:15px"></div>
                     </div>
-                  </div>
+                  </div> -->
                   <!--/Fourth row-->
                 </div>
                 <!--/First column-->
 
                 <!--Second column-->
                 <div class="col-md-4 flex-center">
-                  <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone"
+                  <img src="img/grepsr-image/o-saas-product-shot.original.svg" alt="MDB Magazine Template displayed on iPhone"
                     class="z-depth-0 img-fluid">
                 </div>
                 <!--/Second column-->
@@ -575,13 +646,12 @@
                   <!--First row-->
                   <div class="row">
                     <div class="col-2">
-                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                      <img src="img/grepsr-icon/o-saas-features-icon-02.original.svg" alt="">
                     </div>
                     <div class="col-10">
-                      <h6 class="feature-title">70+ CSS animations</h6>
-                      <p class="grey-text">Neat and easy to use animations, which will increase the interactivity of
-                        your
-                        project and delight your visitors.
+                      <h6 class="feature-title">Better understand you customers</h6>
+                      <p class="grey-text">Explain the features and what it acompolishes. What does your company offer
+                        that will improve or solve a problem?
                       </p>
                       <div style="height:15px"></div>
                     </div>
@@ -591,10 +661,10 @@
                   <!--Second row-->
                   <div class="row">
                     <div class="col-2">
-                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                      <img src="img/grepsr-icon/o-saas-features-icon-03.original.svg" alt="">
                     </div>
                     <div class="col-10">
-                      <h6 class="feature-title">Plenty of useful templates</h6>
+                      <h6 class="feature-title">Improve acquisition</h6>
                       <p class="grey-text">Need inspiration? Use one of our predefined templates for free.</p>
                       <div style="height:15px"></div>
                     </div>
@@ -602,22 +672,22 @@
                   <!--/Second row-->
 
                   <!--Third row-->
-                  <div class="row">
+                  <!-- <div class="row">
                     <div class="col-2">
                       <i class="fas fa-check-circle fa-2x indigo-text"></i>
                     </div>
                     <div class="col-10">
-                      <h6 class="feature-title">Easy installation</h6>
+                      <h6 class="feature-title">Drive customer retention</h6>
                       <p class="grey-text">5 minutes, a few clicks and... done. You will be surprised at how easy it
                         is.
                       </p>
                       <div style="height:15px"></div>
                     </div>
-                  </div>
+                  </div> -->
                   <!--/Third row-->
 
                   <!--Fourth row-->
-                  <div class="row">
+                  <!-- <div class="row">
                     <div class="col-2">
                       <i class="fas fa-check-circle fa-2x indigo-text"></i>
                     </div>
@@ -629,7 +699,7 @@
                         easily adjust each component to suit your needs.</p>
                       <div style="height:15px"></div>
                     </div>
-                  </div>
+                  </div> -->
                   <!--/Fourth row-->
                 </div>
                 <!--/Third column-->
@@ -639,16 +709,13 @@
       </section>
     </div>
     <!--Section: Main features & Quick Start-->
+    <!--Sixth Section ends -->
 
-    <!--Fifth Section Starts -->
-    <!--Section: Not enough-->
-    <!--Fifth Section Ends -->
-    <hr class="mb-5">
-    <div class="container-fluid">
-      <!--Sixth Section Starts -->
+    <!--Seventh Section Starts -->
+    <div class="container-fluid" style="background-color: #d3d3d3">
       <!--Section: More-->
       <section class="container">
-
+        <hr class="my-5">
         <div class="row justify-content-center align-items-center">
           <h3 class="" style="color:#474a8a !important;"><b>More About..</b</h3> </div> <!--First row-->
               <div class="row features-small mt-5 wow fadeIn">
@@ -813,9 +880,8 @@
       <!--Section: Pricing v.2-->
       <!--Section: Pricing v.2-->
       <!--Section: More-->
-      <!--Sixth Section Ends -->
     </div>
-    
+    <!--Seventh Section Starts -->
   </main>
   <!--Main layout-->
 
