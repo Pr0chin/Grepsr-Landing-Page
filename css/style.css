@@ -1,10 +1,23 @@
 /* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
 
 html,
-body,
+body{
+  font-family: Montserrat;
+  font-weight:400;
+  font-style: normal; 
+}
 .view {
   height: 100%; }
 
+#desktopView {display: block;}
+#mobileView {display: none;}
+
+@media screen and (max-width: 740px) {
+
+#desktopView {display: none;}
+#mobileView {display: block;}
+
+}
 @media (max-width: 740px) {
   .full-page-intro {
     height: 1000px; } }
